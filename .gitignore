@@ -1,0 +1,25 @@
+# Arquivos de configuração específicos para o ambiente
+*.pyc
+*.pyo
+__pycache__/
+
+# Arquivos de ambiente (gerados pelo dotenv ou similares)
+.env
+
+# Arquivos de banco de dados SQLite
+db.sqlite3
+
+# Arquivos estáticos gerados
+/static/
+
+# Diretório de mídia (se estiver usando upload de arquivos)
+/media/
+
+# Arquivos de logs
+*.log
+
+# Arquivos de configuração local (se houver)
+local_settings.py
+
+# Virtual environment
+venv/
