@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Loja Online</title>
+</head>
+<body>
+    <header>
+        <h1>Minha Loja Online</h1>
+        <nav>
+            <ul>
+                <li><a href="{% url 'home' %}">Home</a></li>
+                <!-- Adicione mais links conforme necessário -->
+            </ul>
+        </nav>
+    </header>
+
+    <section class="featured-products">
+        <h2>Produtos em Destaque</h2>
+        <div class="product-list">
+            <!-- Aqui você pode iterar sobre os produtos em destaque, se desejar -->
+            <div class="product">
+                <h3>Nome do Produto</h3>
+                <p>Descrição do produto.</p>
+                <span class="price">$XX.XX</span>
+                <a href="#" class="btn">Adicionar ao Carrinho</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Minha Loja Online. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
