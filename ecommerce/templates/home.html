@@ -1,23 +1,24 @@
 {% extends 'base.html' %}
 {% load static %}
 {% block content %}
-    <section class="featured-products">
-        <h2>Produtos em Destaque</h2>
-        <div class="col-8 m-auto pt-2 pb-2">
-            <div class="product-list">
-                <!-- Aqui você pode iterar sobre os produtos em destaque, se desejar -->
-                <div class="product">
-                    <div class="row">
-                        <div class="col-md-8 m-auto pt-2 pb-2">
-                            <div class="card-deck">
-                                <div class="card">
-                                    <img class="card-img-top" src="https://www.madohoreca.com/cdn/shop/products/scatolo-di-cartone-porta-torte-alto-149274.jpg?v=1665579376" alt="Nome do Produto">
-                                    <div class="card-body">
-                                        <h3>Nome do Produto</h3>
-                                        <p>Descrição do produto.</p>
-                                        <span class="price">$XX.XX</span>
-                                        <a href="#" class="btn">Adicionar ao Carrinho</a>
-                                    </div>
+<section class="featured-products">
+    <h2>Produtos em Destaque</h2>
+    <div class="col-8 m-auto pt-2 pb-2">
+        <div class="product-list">
+            <!-- Aqui você pode iterar sobre os produtos em destaque, se desejar -->
+            <div class="product">
+                <div class="row">
+                    <div class="col-md-8 m-auto pt-2 pb-2">
+                        <div class="card-deck">
+                            <div class="card">
+                                <img class="card-img-top"
+                                    src="https://www.madohoreca.com/cdn/shop/products/scatolo-di-cartone-porta-torte-alto-149274.jpg?v=1665579376"
+                                    alt="Nome do Produto">
+                                <div class="card-body">
+                                    <h3>Nome do Produto</h3>
+                                    <p>Descrição do produto.</p>
+                                    <span class="price">$XX.XX</span>
+                                    <a href="#" class="btn">Adicionar ao Carrinho</a>
                                 </div>
                             </div>
                         </div>
@@ -25,5 +26,6 @@
                 </div>
             </div>
         </div>
-    </section>
+    </div>
+</section>
 {% endblock %}
