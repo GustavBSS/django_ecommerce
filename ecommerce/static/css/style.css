@@ -1,0 +1,30 @@
+body {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.featured-products h2 {
+  color: #ff0080;
+}
+
+.card {
+  background-color: #ffffff;
+  border-color: #ff0080;
+}
+
+.card-title {
+  color: #000000;
+}
+
+.card-text {
+  color: #777777;
+}
+
+.price {
+  color: #ff0080;
+}
+
+.btn-primary {
+  background-color: #ff0080;
+  border-color: #ff0080;
+}
