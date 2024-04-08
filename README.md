@@ -5,4 +5,5 @@
 <br>
 <h1>Project of a e-commerce based in Django<h1>
 
-<p>Antes de rodar o projeto seu ambiente virtual, digite o seguinte comando: pip install -r requirements.txt</p>
+<h2>Primeiros passos:</h2>
+<li>Antes de rodar o projeto no seu ambiente virtual, digite o seguinte comando: pip install -r requirements.txt</li>
