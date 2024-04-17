@@ -1,31 +1,75 @@
 {% extends 'base.html' %}
 {% load static %}
 {% block content %}
-<section class="featured-products">
-    <h2>Produtos em Destaque</h2>
-    <div class="col-8 m-auto pt-2 pb-2">
-        <div class="product-list">
-            <!-- Aqui você pode iterar sobre os produtos em destaque, se desejar -->
-            <div class="product">
-                <div class="row">
-                    <div class="col-md-8 m-auto pt-2 pb-2">
-                        <div class="card-deck">
-                            <div class="card">
-                                <img class="card-img-top"
-                                    src="https://www.madohoreca.com/cdn/shop/products/scatolo-di-cartone-porta-torte-alto-149274.jpg?v=1665579376"
-                                    alt="Nome do Produto">
-                                <div class="card-body">
-                                    <h3>Nome do Produto</h3>
-                                    <p>Descrição do produto.</p>
-                                    <span class="price">$XX.XX</span>
-                                    <a href="#" class="btn">Adicionar ao Carrinho</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+<div class="container">
+    <div class="row">
+
+        <!-- First column -->
+        <div class="col-md">
+
+            <!-- Card -->
+            <div class="card">
+                <div class="bg-image hover-overlay" data-mdb-ripple-init data-mdb-ripple-color="light">
+                    <img src="https://mdbcdn.b-cdn.net/img/new/standard/nature/111.webp" class="img-fluid" />
+                    <a href="#!">
+                        <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                    </a>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">PRODUTO_1</h5>
+                    <p class="card-text">Breve descrição do produto, componentes, cor, tamanho,
+                        etc.</p>
+                    <a href="#!" class="btn btn-primary">Comprar</a>
                 </div>
             </div>
+            <!-- Card -->
+
         </div>
-    </div>
-</section>
-{% endblock %}
+        <!-- First column -->
+
+        <!-- Second column -->
+        <div class="col-md">
+
+            <!-- Card -->
+            <div class="card">
+                <div class="bg-image hover-overlay" data-mdb-ripple-init data-mdb-ripple-color="light">
+                    <img src="https://mdbcdn.b-cdn.net/img/new/standard/nature/112.webp" class="img-fluid" />
+                    <a href="#!">
+                        <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                    </a>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">PRODUTO_2</h5>
+                    <p class="card-text">Breve descrição do produto, componentes, cor, tamanho,
+                        etc.</p>
+                    <a href="#!" class="btn btn-primary">Comprar</a>
+                </div>
+            </div>
+            <!-- Card -->
+
+        </div>
+        <!-- Second column -->
+
+        <!-- Third column -->
+        <div class="col-md">
+
+            <!-- Card -->
+            <div class="card">
+                <div class="bg-image hover-overlay" data-mdb-ripple-init data-mdb-ripple-color="light">
+                    <img src="https://mdbcdn.b-cdn.net/img/new/standard/nature/113.webp" class="img-fluid" />
+                    <a href="#!">
+                        <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                    </a>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">PRODUTO_3</h5>
+                    <p class="card-text">Breve descrição do produto, componentes, cor, tamanho,
+                        etc.</p>
+                    <a href="#!" class="btn btn-primary">Comprar</a>
+                </div>
+            </div>
+            <!-- Card -->
+
+        </div>
+        <!-- Third column -->
+        {% endblock %}
