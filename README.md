@@ -6,4 +6,6 @@
 <h1>Project of a e-commerce based in Django<h1>
 
 <h2>Primeiros passos:</h2>
-<li>Antes de rodar o projeto no seu ambiente virtual, digite o seguinte comando: pip install -r requirements.txt</li>
+<li>1. Antes de rodar o projeto no seu ambiente virtual, digite o seguinte comando no <i>prompt de comando</i>: python pip install -r requirements.txt</li>
+<li>2. Execute a migração dos componentes digitando o seguinte comando: python manage.py migrate</li>
+<li>3. Caso não ocorra nenhum erro, execute: python manage.py runserver</li>
