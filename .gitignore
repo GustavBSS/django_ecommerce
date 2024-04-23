@@ -6,9 +6,6 @@ __pycache__/
 # Arquivos de ambiente (gerados pelo dotenv ou similares)
 .env
 
-# Arquivos de banco de dados SQLite
-db.sqlite3
-
 # Arquivos estáticos gerados
 /static/
 
